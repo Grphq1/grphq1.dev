@@ -9,4 +9,9 @@ lang: en
 
 Main page
 <Separator />
+
 <ArticleListLanding />
+<Separator />
+
+<ThoughtListLanding />
+

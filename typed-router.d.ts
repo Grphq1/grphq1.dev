@@ -37,6 +37,20 @@ declare module 'vue-router/auto-routes' {
       { 404: ParamValue<false> },
       | never
     >,
+    '/articles/': RouteRecordInfo<
+      '/articles/',
+      '/articles',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/thoughts/': RouteRecordInfo<
+      '/thoughts/',
+      '/thoughts',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
   }
 
   /**
@@ -59,6 +73,18 @@ declare module 'vue-router/auto-routes' {
     'pages/[...404].md': {
       routes:
         | '/[...404]'
+      views:
+        | never
+    }
+    'pages/articles/index.md': {
+      routes:
+        | '/articles/'
+      views:
+        | never
+    }
+    'pages/thoughts/index.md': {
+      routes:
+        | '/thoughts/'
       views:
         | never
     }
