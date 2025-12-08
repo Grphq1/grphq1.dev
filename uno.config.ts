@@ -36,6 +36,17 @@ export default defineConfig({
       'heading-sm': ['1.25rem', { 'line-height': '1.75rem' }],
     },
   },
+  shortcuts: [
+    {
+      'bg-base': 'bg-white dark:bg-black',
+      'bg-base-secondary': 'bg-neutral-500',
+      'bg-base-invert': 'bg-black dark:bg-white',
+      'color-base': 'text-black dark:text-white',
+      'color-base-secondary': 'text-neutral-500',
+      'container':
+        'mx-auto w-full sm:max-w-620px md:max-w-760px lg:max-w-980px xl:max-w-1100px',
+    },
+  ],
   presets: [
     presetIcons({}),
     presetWind3(),
