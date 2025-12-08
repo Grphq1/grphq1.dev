@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { isDark, toggleDarkWithTransition } from '../logic'
+import { isDark, toggleDarkWithTransition } from '../utils/logic'
 
 function handleToggle(event: MouseEvent) {
   toggleDarkWithTransition(event)
