@@ -44,6 +44,11 @@ export default defineConfig({
         )
       },
       headEnabled: true,
+
+      wrapperClasses: (_, code) =>
+        code.includes('@layout-full-width')
+          ? '!max-w-full mx-auto prose dark:prose-invert prose-gray prose-pre:[direction:ltr]'
+          : 'prose m-auto dark:prose-invert prose-gray prose-pre:[direction:ltr]',
     }),
 
     Components({
