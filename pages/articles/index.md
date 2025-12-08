@@ -7,4 +7,3 @@ description: In-depth essays on design and developing — case studies, patterns
 <!-- @layout-full-width -->
 
 <ArticleList />
-

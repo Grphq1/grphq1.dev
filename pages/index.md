@@ -14,4 +14,3 @@ Welcome — a mix of in-depth essays and quick reflections on design and develop
 <Separator />
 
 <ThoughtListLanding />
-
