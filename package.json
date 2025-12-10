@@ -35,6 +35,8 @@
     "eslint-plugin-format": "^1.0.2",
     "fs-extra": "^11.3.2",
     "gray-matter": "^4.0.3",
+    "lint-staged": "^16.2.7",
+    "simple-git-hooks": "^2.13.1",
     "typescript": "~5.9.3",
     "unocss": "^66.5.10",
     "unplugin-vue-components": "^30.0.0",
@@ -43,5 +45,11 @@
     "vite": "^7.2.4",
     "vite-ssg": "^28.2.2",
     "vue-tsc": "^3.1.4"
+  },
+  "simple-git-hooks": {
+    "pre-commit": "npx lint-staged"
+  },
+  "lint-staged": {
+    "*": "eslint --fix"
   }
 }
