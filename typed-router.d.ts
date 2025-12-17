@@ -51,6 +51,13 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
+    '/thoughts/a-way-out-when-youre-stuck-drawing-an-anime-face': RouteRecordInfo<
+      '/thoughts/a-way-out-when-youre-stuck-drawing-an-anime-face',
+      '/thoughts/a-way-out-when-youre-stuck-drawing-an-anime-face',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
     '/thoughts/unocss-language-server-nix-package': RouteRecordInfo<
       '/thoughts/unocss-language-server-nix-package',
       '/thoughts/unocss-language-server-nix-package',
@@ -92,6 +99,12 @@ declare module 'vue-router/auto-routes' {
     'pages/thoughts/index.md': {
       routes:
         | '/thoughts/'
+      views:
+        | never
+    }
+    'pages/thoughts/a-way-out-when-youre-stuck-drawing-an-anime-face.md': {
+      routes:
+        | '/thoughts/a-way-out-when-youre-stuck-drawing-an-anime-face'
       views:
         | never
     }
