@@ -58,6 +58,13 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
+    '/thoughts/loomis-method-reference': RouteRecordInfo<
+      '/thoughts/loomis-method-reference',
+      '/thoughts/loomis-method-reference',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
     '/thoughts/unocss-language-server-nix-package': RouteRecordInfo<
       '/thoughts/unocss-language-server-nix-package',
       '/thoughts/unocss-language-server-nix-package',
@@ -105,6 +112,12 @@ declare module 'vue-router/auto-routes' {
     'pages/thoughts/a-way-out-when-youre-stuck-drawing-an-anime-face.md': {
       routes:
         | '/thoughts/a-way-out-when-youre-stuck-drawing-an-anime-face'
+      views:
+        | never
+    }
+    'pages/thoughts/loomis-method-reference.md': {
+      routes:
+        | '/thoughts/loomis-method-reference'
       views:
         | never
     }
